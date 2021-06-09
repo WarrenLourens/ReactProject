@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.LandingTitle{
+ text-align: center;
+ font-size: xx-large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+  height: 125px;
+  background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+}
+.footerbar{
+  background: #1a2a6c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ImageSize{
+
+  width: 100px;
+  height: 100px;
+  justify-content: space-around;
+}
+
+
+.category{
+  padding: 5px;
+  text-align: center;
+  border: solid white;
+}
+.category:hover{
+  border: solid rgb(241, 112, 6);
+}
+
+.FlexNave{
+
+padding: 5px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+
+}
+.FlexContent1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+padding-left: 400px;
+display: flex;
+justify-content: end;
+border:  solid rgb(241, 112, 6);
+}
+.FlexContent2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ padding-right: 400px;
+  display: flex;
+
+  flex-direction: row-reverse;
+
+  
+  }
+.ContentImage{
+  height: 200px;
+  width: 200px;
+ 
+
+}
+.BodyText{
+  width: 600px;
+display: flex;
+flex-wrap: wrap;
+ 
+
+}
+.ServiceBody{
+  display: flex;
+  flex-direction: column;
+}
+
+#Login{
+  height: 50px;
+  width: 50px;
+  padding-bottom: 5px;
+
+}
+#LoginImage{
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
+;
+}
+
+#headerBar{
+  display:flex;
+  flex-direction: row;
+justify-content: space-around;
+align-items: center;
+ 
+
+}
+#LoginPad{
+display: flex;
+flex-direction: column;
+
+
+
+}
+#Rows{
+display: flex;
+justify-content: space-around;
+padding-bottom: 2rem;
+
+}
+
+#LogoImage{
+  height: 50px;
+  width: 50px;
+
+}
+.VidPosition{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#Intro{
+  height: 300px;
+  width: 500px ;
+}
+
+input[type=text]{
+  width: 40%;
+  box-sizing: border-box;
+}
+input[type=password]{
+  width: 40%;
+  box-sizing: border-box;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+

@@ -1,2 +1,1 @@
-# ReactProject
-My Puppy-Love project
+# Web601-Assessments-Year2
